@@ -1,0 +1,20 @@
+{
+  "putfile": [
+    {
+      "region": "us-west-2",
+      "bucketname": "your-bucket",
+      "key": "lambdatest.txt",
+      "contenttype": "text/plain",
+      "acl": "public-read",
+      "body": "SGVsbG8gV29ybGQK"
+    },
+    {
+      "region": "us-east-1",
+      "bucketname": "your-bucket-useast1",
+      "key": "lambdatest.txt",
+      "contenttype": "text/plain",
+      "acl": "public-read",
+      "body": "SGVsbG8gV29ybGQK"
+    }
+  ]
+}
