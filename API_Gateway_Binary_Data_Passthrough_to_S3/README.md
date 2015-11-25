@@ -1,8 +1,8 @@
 # API Gateway Binary Data Passthrough to S3
 
-This function allows for the ability to passthrough binary data using the AWS API Gateway service, as base64 encoded strings.  It is configured to ingest a JSON blob (includes the base64 encoded file body, and file/S3 metadata), decode the base64 encoded string, and upload the file to S3.
+This function has the ability to passthrough binary data to S3 using the AWS API Gateway service, as base64 encoded strings.  It is configured to ingest a JSON blob (includes the base64 encoded file body, and file/S3 metadata), decode the base64 encoded string, and upload the file to S3.
 
-## Example JSON Blob for Uploading Two Files
+## An Example JSON Blob for Uploading Two Files
 
 ```json
 {
